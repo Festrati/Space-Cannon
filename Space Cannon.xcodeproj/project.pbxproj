@@ -13,9 +13,9 @@
 		D1A0E6BF1A94194B0042FBF7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D1A0E6BE1A94194B0042FBF7 /* GameScene.sks */; };
 		D1A0E6C21A94194B0042FBF7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A0E6C11A94194B0042FBF7 /* GameViewController.m */; };
 		D1A0E6C51A94194B0042FBF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A0E6C31A94194B0042FBF7 /* Main.storyboard */; };
-		D1A0E6C71A94194C0042FBF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A0E6C61A94194C0042FBF7 /* Images.xcassets */; };
 		D1A0E6CA1A94194C0042FBF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A0E6C81A94194C0042FBF7 /* LaunchScreen.xib */; };
 		D1A0E6D61A94194C0042FBF7 /* Space_CannonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A0E6D51A94194C0042FBF7 /* Space_CannonTests.m */; };
+		D1A0E6E01A941A450042FBF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A0E6DF1A941A450042FBF7 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +40,11 @@
 		D1A0E6C01A94194B0042FBF7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		D1A0E6C11A94194B0042FBF7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		D1A0E6C41A94194B0042FBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1A0E6C61A94194C0042FBF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1A0E6C91A94194C0042FBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D1A0E6CF1A94194C0042FBF7 /* Space CannonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CannonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A0E6D41A94194C0042FBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1A0E6D51A94194C0042FBF7 /* Space_CannonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CannonTests.m; sourceTree = "<group>"; };
+		D1A0E6DF1A941A450042FBF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +86,7 @@
 		D1A0E6B31A94194B0042FBF7 /* Space Cannon */ = {
 			isa = PBXGroup;
 			children = (
+				D1A0E6DF1A941A450042FBF7 /* Images.xcassets */,
 				D1A0E6B81A94194B0042FBF7 /* AppDelegate.h */,
 				D1A0E6B91A94194B0042FBF7 /* AppDelegate.m */,
 				D1A0E6BB1A94194B0042FBF7 /* GameScene.h */,
@@ -94,7 +95,6 @@
 				D1A0E6C01A94194B0042FBF7 /* GameViewController.h */,
 				D1A0E6C11A94194B0042FBF7 /* GameViewController.m */,
 				D1A0E6C31A94194B0042FBF7 /* Main.storyboard */,
-				D1A0E6C61A94194C0042FBF7 /* Images.xcassets */,
 				D1A0E6C81A94194C0042FBF7 /* LaunchScreen.xib */,
 				D1A0E6B41A94194B0042FBF7 /* Supporting Files */,
 			);
@@ -208,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1A0E6CA1A94194C0042FBF7 /* LaunchScreen.xib in Resources */,
-				D1A0E6C71A94194C0042FBF7 /* Images.xcassets in Resources */,
+				D1A0E6E01A941A450042FBF7 /* Images.xcassets in Resources */,
 				D1A0E6BF1A94194B0042FBF7 /* GameScene.sks in Resources */,
 				D1A0E6C51A94194B0042FBF7 /* Main.storyboard in Resources */,
 			);
